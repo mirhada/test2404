@@ -1,0 +1,24 @@
+@import "../variables/fonts";
+
+
+@mixin regular-text() {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+
+@mixin sub-text() {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+@mixin big-text() {
+  font-family: $main-font;
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+}
